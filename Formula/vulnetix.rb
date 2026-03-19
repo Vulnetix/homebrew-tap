@@ -1,28 +1,28 @@
 class Vulnetix < Formula
   desc "Vulnetix Unified Command Line Utility for the Vulnerability Database"
   homepage "https://github.com/Vulnetix/cli"
-  version "1.7.0"
+  version "1.7.1"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-darwin-arm64"
-      sha256 "5271d36539b05260dd9efb16cce4ae37442ecaddf46aa4bd3f997a08ca5a5ca0"
+      sha256 "2fbd38759ebed2b18b0c8a192d1aae6c5037136ecefbd10fa8918f3c0c867813"
     end
     on_intel do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-darwin-amd64"
-      sha256 "ade8bdc3a70af0d441abc6d686b02c1f7bd18829e94a9a21d2a78f940f82aa86"
+      sha256 "6c564df5f13636c628402e449fcb6113dcaeb513d0871caaf2b882a4134a525e"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-linux-arm64"
-      sha256 "a6d09cf974d7c94b71d8115e43e0e956406a3cf833913dbabb04b42c966b2b1f"
+      sha256 "121b940fece5e66bc6a87571baa4e42271a6744bf54d3b5995737879bff4e805"
     end
     on_intel do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-linux-amd64"
-      sha256 "a9cecb208bf0c97244c5fd5a22abbf8ea8cfbac34dff8b023a5eadd348568d7e"
+      sha256 "5424c17b8ab5acbcb2617ca3020c8bf913fd4c29fb128bc4cd2c6e51818fd06a"
     end
   end
 
