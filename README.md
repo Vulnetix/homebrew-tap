@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="pix.svg" alt="Pix, the Vulnetix mascot" width="110">
+</p>
+
 # Vulnetix Homebrew Tap
 
 Homebrew formulae for Vulnetix tools.
