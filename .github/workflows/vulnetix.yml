@@ -26,7 +26,11 @@ jobs:
             artifact: .vulnetix/sbom.cdx.json
           - id: secrets
             name: Secrets
-            run: vulnetix secrets --ignore-binaries --ignore-git --no-banner --no-progress --verbose
+            run: vulnetix secrets --rule Vulnetix/community-rules --rule Vulnetix/opa-fugue-regula --rule Vulnetix/opa-checkmarx-kics --rule Vulnetix/opa-cds-aws-tf --rule Vulnetix/opa-cigna-tf --rule Vulnetix/opa-aquasecurity-trivy --ignore-binaries --ignore-git --no-banner --no-progress --verbose
+            artifact: .vulnetix/sast.sarif
+          - id: sast
+            name: SAST
+            run: vulnetix sast --rule Vulnetix/community-rules --rule Vulnetix/opa-fugue-regula --rule Vulnetix/opa-checkmarx-kics --rule Vulnetix/opa-cds-aws-tf --rule Vulnetix/opa-cigna-tf --rule Vulnetix/opa-aquasecurity-trivy --no-banner --no-progress --verbose
             artifact: .vulnetix/sast.sarif
           - id: licenses
             name: Licenses
@@ -40,6 +44,10 @@ jobs:
             name: AIBOM
             run: vulnetix aibom --commit-scan-max 1 --no-banner --no-progress --verbose
             artifact: .vulnetix/ai-bom.cdx.json
+          - id: analyze
+            name: Analyze
+            run: vulnetix analyze --no-banner --no-progress --verbose
+            artifact: .vulnetix/analyze.report.json
 
     steps:
       - uses: actions/checkout@v5
