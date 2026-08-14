@@ -20,3 +20,4 @@ brew install vvd-search    # Interactive TUI
 |---------|-------------|
 | vulnetix | Vulnetix Unified Command Line Utility |
 | vvd-search | Interactive TUI for exploring the Vulnetix Vulnerability Database |
+<!-- ci-touch: 2026-08-14T04:04:34Z -->
