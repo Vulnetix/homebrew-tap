@@ -7,22 +7,22 @@ class Signet < Formula
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-darwin-arm64"
-      sha256 "8458ff41d117db6055d396ed6a9e3f3fb3215daed7a1eae232e236e7dbf03193"
+      sha256 "1c1a319f9808df7042b18b772f920bf1e2a058f67b9248e1a777e0478ac9b9c8"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-darwin-amd64"
-      sha256 "05a1f470c76de8265c9ac6938d228b68d26e5dacbc6135f0f596699361f72b8b"
+      sha256 "16b3977ebdb4cdbf4020a045032d0cd37287c6d232798fa510569612e6a4e7dd"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-linux-arm64"
-      sha256 "6d6f485d2f0fc847ef60d808b738b44fd1851a2856b39aea174c94b186fc83bb"
+      sha256 "91a8ec454d890847f11db39c0d10c32eae0f4f5f422906714828922f302a09ca"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-linux-amd64"
-      sha256 "81b813e58103804a39421baf2c3772ab800820bfa6e450a0435a6f47c1f49117"
+      sha256 "cc59c576d593871daa22ebe8a3d24f5d97f9f3fed1bce35fc3dc191cf15013c3"
     end
   end
 
