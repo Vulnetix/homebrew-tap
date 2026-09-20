@@ -1,28 +1,28 @@
 class Signet < Formula
   desc "Role-managed, injection-safe LLM coding harness"
   homepage "https://github.com/Vulnetix/signet"
-  version "0.39.17"
+  version "0.39.18"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-darwin-arm64"
-      sha256 "37110a95c7bc9c3d22f5f33f31ab7afa1c08f2b1cebf58e9d777f2b5ad2f241d"
+      sha256 "08161ecb413dcddb9bbd23403ce409cdf7278c63370b0de4a9655af96eb5da97"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-darwin-amd64"
-      sha256 "cb666f86eecf2998eae7e3efebaa4e18981c2fdc8572f2fd0b650e20718c3678"
+      sha256 "0e2ebf9210119f884527198b70de25ac0fe47c20515aeb0dd981cd0ab3662f8b"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-linux-arm64"
-      sha256 "19da25c3411f0b02220d0290be1a319d89dd7164f69df6d31bab2f2b914cccb8"
+      sha256 "202cb7dd726b006a94dc7f4750d87d476bb88ea0908ea63828a69a76892aff88"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-linux-amd64"
-      sha256 "6d3d54a9728b81e9d0b0d0e992f12bc834dd86a8633956e3602a25e0facc62ad"
+      sha256 "96573a66f40a8be0b6fff4206acbaa9320543acfbb646c9b3a9a2a58b3eafeb8"
     end
   end
 
