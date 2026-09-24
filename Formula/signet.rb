@@ -1,28 +1,28 @@
 class Signet < Formula
   desc "Role-managed, injection-safe LLM coding harness"
   homepage "https://github.com/Vulnetix/signet"
-  version "0.49.5"
+  version "0.49.6"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-darwin-arm64"
-      sha256 "5d899a0ca349c9b9bb0667d12e38aeb938f5f2f88fd4e241cbecabda5ee055c7"
+      sha256 "07f64dfb0a6375aaa395442f331c5628de15cf22b40dc19ae59fea55918467f0"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-darwin-amd64"
-      sha256 "c77739989741568dbc41dd5c125bd8c228cc4773c3bc234a4f3b317517eabc94"
+      sha256 "4db1fd42c88acc480ebfed5c2106461595e8f24393bce61c483a69ee5b8a9e0c"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-linux-arm64"
-      sha256 "791b1fb4c5bb6933f5f7bba1002c7f120aeb43774ea874f5119af23b7177c4d4"
+      sha256 "357759f4f2c4f33b3e99f11828fe5869de45ef91d7c9717cef3e4390e61c7f5c"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-linux-amd64"
-      sha256 "3b825a3f5e5a0bf8b5cc88d0368846f4b09bbdda98f504cc5609372cd05a4148"
+      sha256 "c5689e102c19fd696548410b9dc73c532d50565c3bf09ad6c82979d2225245eb"
     end
   end
 
