@@ -7,22 +7,22 @@ class Signet < Formula
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-darwin-arm64"
-      sha256 "fec7b19761d4d5b2f22bba21acb7931f434d6a728d512ed06de0375a003e17cf"
+      sha256 "9be3f16908d6e848558f20fff500bbcf2efd7a3fbf23bf5f2a36210b4b71477c"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-darwin-amd64"
-      sha256 "8da9b7ee6584092b85c8ded099168369f3b91ee907fe14fd7082b9b71e026b48"
+      sha256 "2cce72c955978e0a709e4c7c003c075202c3517345c1bea36c17b486d53fdcc1"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-linux-arm64"
-      sha256 "f951e4938ce8f253f263eddf29dd53602bdf85490c3715dfb2cf71bc1e778317"
+      sha256 "daa001a490b7b9ed33f804fa9cc830b8d84eea45a25200743433f9736e8a2321"
     end
     on_intel do
       url "https://github.com/Vulnetix/signet/releases/download/v#{version}/signet-bert-guardrails-linux-amd64"
-      sha256 "50ce326cd301e4181c33f8995ca730b4ba675706aeaefca9f216a5b59b53daae"
+      sha256 "c2d287383d3a31af26dfe5c122744de7977eb46e00049945ea1c3e8bb0be4b39"
     end
   end
 
