@@ -1,28 +1,28 @@
 class Belai < Formula
   desc "Role-managed, injection-safe LLM coding harness"
   homepage "https://github.com/Vulnetix/belai"
-  version "0.116.0"
+  version "0.117.0"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-darwin-arm64"
-      sha256 "ac0a9fba2278e4273fa5cfb10b0e589ae53d1337b8331bd1d0c143341fb9e561"
+      sha256 "f9f2f29da2d48dabcf807959bffe87fefcf2f4b3d24f748f8829b84f0de914a3"
     end
     on_intel do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-darwin-amd64"
-      sha256 "d0207f9dde8252c0f9350be7040236b6bd58e0884338519d35b9d4bb94ff4be2"
+      sha256 "e4a4972cdae2fa513aefee65a0aabe6402408b3f16ffc0567df134e4e1b8d7dc"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-linux-arm64"
-      sha256 "7e97e7520d21e62a17553b773af3a74cb1e9a7cabcd97b74111828f8e6a10a35"
+      sha256 "961d9984709cd0f3d793e1f63c5b6513391548c6deb22d99cfe05033d40913e6"
     end
     on_intel do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-linux-amd64"
-      sha256 "488533586ab7b5457cd9f6261cab261a546c412beb7ae5948e5393876af5a719"
+      sha256 "b776f9384093bb452dc162c565152c496cda83e74c961c0d2613ce2b09897062"
     end
   end
 
