@@ -7,22 +7,22 @@ class Belai < Formula
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-darwin-arm64"
-      sha256 "7c6117966d36aa49839e56358d0ca50cc2d91ce34000f537ce242f93eb2be1b6"
+      sha256 "fe77f6843fa07a6a9043f95cc2d37e67006d478c10735acc03b8d49b8ae6b0fb"
     end
     on_intel do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-darwin-amd64"
-      sha256 "4e097a579e87f58fd808881f5f67418f1180b4b4fd5ae7db615c97e8fbc427dc"
+      sha256 "db89592a1164a4dfeb4f6bf9df0cea644d31632a18771bcec3840123961c4101"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-linux-arm64"
-      sha256 "7c715efb97d90c82683c87734ee33162afa1d1ab5a35425e0669a1141b5bfe3e"
+      sha256 "c8138b5ccda914e902251630809171606f0b9b95cf13855000ed1b38c68490d6"
     end
     on_intel do
       url "https://github.com/Vulnetix/belai/releases/download/v#{version}/belai-bert-guardrails-linux-amd64"
-      sha256 "5dab0495ab58a3cb998d49418adc285997b5f5ec120d3dc6ca5922ac2eac18cf"
+      sha256 "2c0c74ee24b8c3ab67850ab74f7fe81e7cbca0141a5d820d8cfb2e75879a7ee4"
     end
   end
 
