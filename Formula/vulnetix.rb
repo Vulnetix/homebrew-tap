@@ -2,7 +2,7 @@ class Vulnetix < Formula
   desc "Vulnetix Unified Command Line Utility for the Vulnerability Database"
   homepage "https://github.com/Vulnetix/cli"
   version "3.125.2"
-  license "MIT"
+  license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
