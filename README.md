@@ -2,7 +2,7 @@
   <img src="pix.svg" alt="Pix, the Vulnetix mascot" width="110">
 </p>
 
-# Vulnetix Homebrew Tap
+# Vulnetix Homebrew tap
 
 Homebrew formulae for Vulnetix tools.
 
@@ -11,14 +11,22 @@ Homebrew formulae for Vulnetix tools.
 ```bash
 brew tap vulnetix/tap
 brew install vulnetix      # CLI
+brew install belai         # Belai, the open source coding harness
 brew install vvd-search    # Interactive TUI
 ```
 
-## Available Formulae
+Or without tapping first:
+
+```bash
+brew install vulnetix/tap/vulnetix
+brew install vulnetix/tap/belai
+```
+
+## Available formulae
 
 | Formula | Description |
 |---------|-------------|
-| vulnetix | Vulnetix Unified Command Line Utility |
+| vulnetix | Scan dependencies, code, secrets, IaC and containers, and query the Vulnetix VDB |
 | belai | Role-managed, injection-safe LLM coding harness |
 | crit-validate | Validate CVEListv5 records with embedded CRIT data |
 | vvd-search | Interactive TUI for exploring the Vulnetix Vulnerability Database |

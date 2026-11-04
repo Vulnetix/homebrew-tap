@@ -1,5 +1,5 @@
 class Vulnetix < Formula
-  desc "Vulnetix Unified Command Line Utility for the Vulnerability Database"
+  desc "Scan dependencies, code, secrets, IaC and containers, and query the Vulnetix VDB"
   homepage "https://github.com/Vulnetix/cli"
   version "4.19.0"
   license "AGPL-3.0-only"
