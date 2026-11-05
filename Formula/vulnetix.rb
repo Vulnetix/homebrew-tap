@@ -1,28 +1,28 @@
 class Vulnetix < Formula
   desc "Scan dependencies, code, secrets, IaC and containers, and query the Vulnetix VDB"
   homepage "https://github.com/Vulnetix/cli"
-  version "4.22.3"
+  version "4.23.0"
   license "AGPL-3.0-only"
 
   on_macos do
     on_arm do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-darwin-arm64"
-      sha256 "cbe4d74b9a8ff60f372c5c0255683093e65b5fdfb4fe5b0d066576443f0e6daa"
+      sha256 "6080033618a7d2572e2edc125d7e8400712221592d7ea9d8f28e0359ef6aae14"
     end
     on_intel do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-darwin-amd64"
-      sha256 "85fb11c1d78d968140cef134dc328d3f3079d23bdd3120a00d66af6b20bd48c8"
+      sha256 "a2d6e87a5c88d60107ce566da05c252ecb85c857acc6de4acfe6c05b1f75978a"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-linux-arm64"
-      sha256 "2aeda63fdeacce1d7ceb6740fa7f9285143d0bbce10e7600c79b6d6c25612381"
+      sha256 "55f581ce240d4085f898fababe3cee6662771abc4a53dd797cb22e05058d72aa"
     end
     on_intel do
       url "https://github.com/Vulnetix/cli/releases/download/v#{version}/vulnetix-linux-amd64"
-      sha256 "7e5d6bb6c5b0d6e6ddc6a0cbfe35d575afa80f41f95fb77f57cfb145fe657157"
+      sha256 "0e840937fd846ba4bddb5258bc235688a6e73a145e7889a8ce886c9414e8c2f8"
     end
   end
 
