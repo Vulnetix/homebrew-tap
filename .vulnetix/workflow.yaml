@@ -1,0 +1,10 @@
+version: 1
+runner: vulnetix-local
+triggers: push
+sast: none
+sca: none
+iac: "off"
+containers: "off"
+sbom: false
+tea:
+  off: true
