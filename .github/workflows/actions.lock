@@ -14,10 +14,10 @@ workflows:
         - 'aquasecurity/trivy-action@v0.36.0'
         - 'astral-sh/setup-uv@v10.3.3'
         - 'google/osv-scanner-action@v2.7.0'
-        - 'ruby/setup-ruby@v1.336.0'
+        - 'ruby/setup-ruby@v1.338.0'
     '.github/workflows/vulnetix.yml':
         - 'actions/checkout@v7.0.1'
-        - 'vulnetix/cli@v4.24.3'
+        - 'vulnetix/cli@v4.24.6'
 dependencies:
     'actions/attest-build-provenance@4d101475d8b20a2381f78447822ac1eab6504dd8':
         ref: 'v4.2.2'
@@ -102,9 +102,9 @@ dependencies:
         commit: 'sha1-b1d267aea5211fa648d9d442fa64b90dbdcbdd36'
         owner_id: 1342004
         repo_id: 736073144
-    'ruby/setup-ruby@v1.336.0':
-        ref: 'v1.336.0'
-        commit: 'sha1-de492cf36cbab201753d720ce4f4e336cd688c94'
+    'ruby/setup-ruby@v1.338.0':
+        ref: 'v1.338.0'
+        commit: 'sha1-b3aaceaef7e0ee231b499e7b5f49c03fc1d32199'
         owner_id: 210414
         repo_id: 231208785
     'sigstore/cosign-installer@6f9f17788090df1f26f669e9d70d6ae9567deba6':
@@ -112,9 +112,9 @@ dependencies:
         commit: 'sha1-6f9f17788090df1f26f669e9d70d6ae9567deba6'
         owner_id: 71096353
         repo_id: 351211695
-    'vulnetix/cli@v4.24.3':
-        ref: 'v4.24.3'
-        commit: 'sha1-cd3503489e131a1ba76c7fd696687ae07a6cd3c9'
+    'vulnetix/cli@v4.24.6':
+        ref: 'v4.24.6'
+        commit: 'sha1-397ab8905b860c351d75a8fea222de8413989fbc'
         owner_id: 178014019
         repo_id: 809336204
         uses:
